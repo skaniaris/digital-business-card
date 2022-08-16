@@ -26,28 +26,31 @@ body {
 
 }
 
-.info-container {
+.container {
   text-align: center;
 }
 
-.info-text {
+.bg-color {
   background-color: #1A1B21;;
 }
 
-.info-text > h1 {
+.bg-color > h1 {
   color: white;
   font-size: 25px;
   line-height: 30px;
+  margin-bottom: 6px;
+  padding-top: 21px;
 }
 
-.info-text > h2 {
+.bg-color > h2 {
   color:#F3BF99;
   font-weight: 400;
   font-size: 12.8px;
   line-height: 15px;
+  margin-bottom: 8px;
 }
 
-.info-text > a {
+.bg-color > a {
   text-decoration: none;
   font-weight: 400;
   font-size: 10.24px;
@@ -55,10 +58,64 @@ body {
   color: #F5F5F5;
 }
 
-.contact-buttons > button > imgs {
-  width: 13px;
+.contact-buttons > button > img {
+  width: 12px;
+  margin-right:9px;
 }
 
 .contact-buttons > button {
+  padding: 9px 20px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 15px;
+  width: 117px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  height: 34px;
+}
 
+.linkedin {
+  background-color:#5093E2;
+  margin-left: 19px;
+  color: white;
+}
+
+/* About */
+
+.about-interest > h3 {
+  color: white;
+  padding-left: 35px;
+  padding-bottom: 5px;
+}
+
+.abt {
+  padding-top: 30px;
+}
+
+.about-interest > p {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+  max-width: 317px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 24px;
+}
+
+/* footer */
+
+footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer > img {
+  width: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }

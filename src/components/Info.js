@@ -5,15 +5,15 @@ import Email from "../images/email.png";
 
 export default function Info() {
     return(
-        <header className="info-container">
+        <header className="container">
             <div className="img-bg"></div>
-            <div className="info-text">
+            <div className="bg-color">
             <h1>Sarah Kaniaris</h1>
             <h2>Frontend Developer</h2>
             <a href="https://skaniaris.github.io/sarah-kaniaris-portfolio/">sarahkaniaris.website</a>
             <div className="contact-buttons">
-                <button><img src={Email}/>Email</button>
-                <button><img src={Linkedin}/>LinkedIn</button>
+                <button className="email"><img src={Email}/>Email</button>
+                <button className="linkedin"><img src={Linkedin}/>LinkedIn</button>
             </div>
             </div>
         </header>
